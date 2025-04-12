@@ -1,5 +1,5 @@
 NAME = ft_display_file
-SRC = main.c
+SRC = ft_display_file.c
 OBJ = $(SRC:.c=.o)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
