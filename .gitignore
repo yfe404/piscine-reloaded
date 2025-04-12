@@ -1,0 +1,12 @@
+*.o
+a.out
+ex06/ft_putchar.c
+ex07/ft_putchar.c
+ex08/ft_putchar.c
+ex15/ft_putchar.c
+ex18/ft_putchar.c
+ex19/ft_putchar.c
+ex24/srcs
+ex24/includes
+libft.a
+ft_display_file
