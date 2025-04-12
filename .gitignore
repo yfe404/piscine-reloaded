@@ -10,3 +10,4 @@ ex24/srcs
 ex24/includes
 libft.a
 ft_display_file
+main.c
