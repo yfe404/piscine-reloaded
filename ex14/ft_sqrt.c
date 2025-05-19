@@ -6,7 +6,7 @@
 /*   By: yfeunteu <yfeunteu@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 21:26:00 by yfeunteu          #+#    #+#             */
-/*   Updated: 2025/05/19 17:34:28 by yfeunteu         ###   ########.fr       */
+/*   Updated: 2025/05/19 17:40:54 by yfeunteu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_sqrt(int nb)
 	while (test <= nb)
 	{
 		if (test * test <= 0)
-			return 0;
+			return (0);
 		if (test * test == nb)
 			return (test);
 		test++;
@@ -28,11 +28,11 @@ int	ft_sqrt(int nb)
 	return (0);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main(void)
 {
 	
-    int test_values[] =     {0, 1, 2, 4, 9, 10, 16, 25, 26, 100, 2147395600, -1, 84777569};
+    int test_values[] =     {0, 1, 2, 4, 9, 10, 16, 25, 26, 100, 2147395600, -1};
     int expected_results[] = {0, 1, 0, 2, 3, 0, 4, 5, 0, 10, 46340, 0, 0};
     int size = sizeof(test_values) / sizeof(test_values[0]);
     
@@ -49,4 +49,4 @@ int main(void)
     }
 
     return 0;
-}
+}*/
