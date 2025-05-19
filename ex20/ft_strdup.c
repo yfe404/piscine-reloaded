@@ -29,6 +29,7 @@ char	*ft_strdup(char *src)
 	size_t	i;
 	char	*new;
 
+	i = 0;
 	len = ft_strlen(src);
 	new = malloc(len + 1);
 	if (new == NULL)
